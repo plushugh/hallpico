@@ -654,6 +654,272 @@
 			(uuid "4370ba33-75fe-406e-b11a-94d67af45b51")
 		)
 	)
+	(footprint "Library:SW_HE_MX_PCB"
+		(layer "F.Cu")
+		(uuid "722e2bef-bec2-45e5-9ac2-12ec13b9e4d5")
+		(at 55.88 57.658)
+		(descr "Hall Effect keyswitch PCB Mount")
+		(tags "Hall Effect Keyboard Keyswitch Switch PCB Cutout")
+		(property "Reference" "H1"
+			(at 0.01 -5.842 360)
+			(layer "F.SilkS")
+			(uuid "481ea101-2c01-4008-90c3-350b1e0ac727")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "KeyMount"
+			(at 0 8 360)
+			(layer "F.Fab")
+			(uuid "a7fd4191-3bdf-4db7-a84c-085c8b963b8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Library:SW_HE_MX_PCB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2afa1c73-db4f-4b53-92bd-2450a5be6dc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c4eb945-eb21-4949-ba0f-47aa4b3c8225")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ebf7c59-af70-42fa-b9fe-998ad2961359")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/3716b19d-ec6c-43d5-a68b-ae5075d12848")
+		(sheetname "Root")
+		(sheetfile "hallpico.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.1 -7.1)
+			(end -7.1 7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4012610d-0937-45a4-85ac-b3452913b0c7")
+		)
+		(fp_line
+			(start -7.1 7.1)
+			(end 7.1 7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eabe84f6-5cd0-4ce9-a04e-8a3433a349ae")
+		)
+		(fp_line
+			(start 7.1 -7.1)
+			(end -7.1 -7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9954d8fd-ff1b-4945-8599-912fc8877c0b")
+		)
+		(fp_line
+			(start 7.1 7.1)
+			(end 7.1 -7.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dbe385e0-ec4b-4867-a7d3-575ee3f23fef")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "5d1ebb50-e71c-4c73-a082-5891111b49ba")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "b54e7c5c-e20c-4426-8d53-2fc969839c0f")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "64c7c88b-8c88-4387-87d8-f1153df5a02c")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "5698b0a8-5c2d-4b25-9661-a1811e556811")
+		)
+		(fp_line
+			(start -7.25 -7.25)
+			(end -7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4bce251f-d025-4490-b9e1-573c37ba82ea")
+		)
+		(fp_line
+			(start -7.25 7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "55cefbec-27e6-4cf0-a417-bd7dc2d4560b")
+		)
+		(fp_line
+			(start 7.25 -7.25)
+			(end -7.25 -7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0d7354ed-e574-46c6-94ef-25e2eb6029a2")
+		)
+		(fp_line
+			(start 7.25 7.25)
+			(end 7.25 -7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d96de630-4e11-479d-8e31-0b8e6662c92e")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cac7d67e-24fb-4b9d-a13b-63feced491f4")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7be8a4dd-998a-49c4-a8e4-01199b59ff41")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "10540bca-c904-4dfc-a031-5338f0d30696")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1918826e-306e-499e-a713-ef42ddc0144d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(uuid "553601ce-a8dc-4f25-a610-754e124c2726")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5f0d5580-8cd7-4eb1-a1bd-31a614912815")
+		)
+		(pad "" np_thru_hole circle
+			(at 5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cfe99552-4627-40b9-96b8-f88f1ca23312")
+		)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "MountingHole:MountingHole_2.5mm_Pad_Via"
 		(layer "F.Cu")
 		(uuid "73a7ec88-e122-4771-bec0-097c1e77f042")
@@ -1882,15 +2148,17 @@
 			(uuid "68ddf400-eeda-487f-ade2-08e25a28fe36")
 		)
 	)
-	(footprint "Library:RP2040_MiniPico_V1.1"
+	(footprint "Library:RP2040_ProMicro"
 		(layer "F.Cu")
 		(uuid "cc0a5463-49be-40d6-ac2e-831cb674a3a5")
 		(at 39.47 29.322)
+		(descr "nologotech RP2040 Pro Micro Board")
+		(tags "nologotech RP2040 Pro Micro Development Board")
 		(property "Reference" "U1"
 			(at 2 -1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3391cae0-04bc-4a67-bff0-eb084bf6ef81")
+			(uuid "dc721040-98b7-4dea-a915-c7f6d81ea32a")
 			(effects
 				(font
 					(size 1 1)
@@ -1898,11 +2166,11 @@
 				)
 			)
 		)
-		(property "Value" "RP2040 MiniPico V1.1"
-			(at 0 1 0)
+		(property "Value" "RP2040 Pro Micro"
+			(at 18.5 11.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "27ce9327-ea2b-4dcd-afaf-2b4bb8e0d312")
+			(uuid "97a5718a-7956-4515-8289-adbc641ccf74")
 			(effects
 				(font
 					(size 1 1)
@@ -1910,12 +2178,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:RP2040_MiniPico_V1.1"
+		(property "Footprint" "Library:RP2040_ProMicro"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5efba05c-7a9d-4359-aa96-25d04bf74233")
+			(uuid "228ce9b7-aa8d-483e-9b4e-4a7cd25f1797")
 			(effects
 				(font
 					(size 1 1)
@@ -1928,7 +2196,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a68b6453-5aec-470a-9fd1-bb2c5e6a15f4")
+			(uuid "7abcd4c6-2edb-4c68-919d-c3b06de5deda")
 			(effects
 				(font
 					(size 1 1)
@@ -1936,12 +2204,12 @@
 				)
 			)
 		)
-		(property "Description" "RP2040 ProMicro (MiniPico) Board from nologotech"
+		(property "Description" "RP2040 Pro Micro Board from nologotech"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5901d8d3-9b16-46cc-8c63-144320bf4255")
+			(uuid "a2d55789-1cd8-4130-b2ee-6f4f1153b088")
 			(effects
 				(font
 					(size 1 1)
@@ -1962,7 +2230,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "92a1bc67-e981-469e-8a6c-de570ed8c00d")
+			(uuid "628539a6-b53f-49c8-ac00-ac6c25834cd8")
 		)
 		(fp_rect
 			(start 0 5.39)
@@ -1973,13 +2241,13 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "124e5799-473b-4c61-94f9-77c7da4a5ea5")
+			(uuid "696e8b7c-04cc-4643-86c6-59fc6d7e0aab")
 		)
 		(fp_text user "USB"
 			(at 3.3 11.3 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "716b8a2a-b002-437c-85a3-4c3c93fc9335")
+			(uuid "158a099e-bf05-430d-8f48-6909c0b14d7e")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -1993,7 +2261,7 @@
 			(at 12.3 9.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "7e53a8fe-0cf8-4b16-8129-41ab647cdfb6")
+			(uuid "6311afa7-fdc7-4049-821b-62c5605a114c")
 			(effects
 				(font
 					(size 1 1)
@@ -2003,10 +2271,10 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 18.5 12.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "86cbf7c8-9ce6-495c-bc30-792534af5969")
+			(uuid "52afc3e8-57e4-4485-b9eb-42960ccc32bb")
 			(effects
 				(font
 					(size 1 1)
@@ -2023,7 +2291,7 @@
 			(net 29 "unconnected-(U1-GPIO11-Pad1)")
 			(pinfunction "GPIO11")
 			(pintype "bidirectional")
-			(uuid "d08a4280-2feb-4844-8d56-754f3ed4f587")
+			(uuid "c67bc4a4-6fe9-4e39-9b81-fba3bc784c32")
 		)
 		(pad "2" thru_hole oval
 			(at 3.8 1.27)
@@ -2034,7 +2302,7 @@
 			(net 1 "+5V")
 			(pinfunction "5V")
 			(pintype "power_out")
-			(uuid "e67b33ac-518a-463f-9641-cd443df991d7")
+			(uuid "7cf8afb8-67e9-447b-b677-c2458c510c4e")
 		)
 		(pad "3" thru_hole oval
 			(at 6.34 1.27)
@@ -2045,7 +2313,7 @@
 			(net 3 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "176eb5bf-9c90-4a80-a561-10ab5464a855")
+			(uuid "570f2202-abb7-4649-b46f-3a003106ed9e")
 		)
 		(pad "4" thru_hole oval
 			(at 8.88 1.27)
@@ -2056,7 +2324,7 @@
 			(net 9 "RST")
 			(pinfunction "RST")
 			(pintype "input")
-			(uuid "f57959ac-05d8-43f4-b6e2-68b992f24ba5")
+			(uuid "d2e15748-6259-4527-8dab-96ea89568c6a")
 		)
 		(pad "5" thru_hole oval
 			(at 11.42 1.27 90)
@@ -2067,7 +2335,7 @@
 			(net 24 "+3V3")
 			(pinfunction "3V3")
 			(pintype "power_out")
-			(uuid "a801a710-d2c8-4c4a-b6a5-571f8e478b39")
+			(uuid "f193a78a-61ad-46c9-b2f7-527dbe41182a")
 		)
 		(pad "6" thru_hole oval
 			(at 13.96 1.27)
@@ -2078,7 +2346,7 @@
 			(net 17 "ADC3")
 			(pinfunction "GPIO29")
 			(pintype "bidirectional")
-			(uuid "5eb4c83d-2c7c-4714-97da-d930bc820b27")
+			(uuid "8616447f-b630-46b0-a169-ae7a35a49f8f")
 		)
 		(pad "7" thru_hole oval
 			(at 16.5 1.27)
@@ -2089,7 +2357,7 @@
 			(net 32 "ADC2")
 			(pinfunction "GPIO28")
 			(pintype "bidirectional")
-			(uuid "db39b5d5-a057-4bf1-9cf7-9e8d2adbf705")
+			(uuid "1f5a7e87-31f6-4147-91ed-e623f32011ed")
 		)
 		(pad "8" thru_hole oval
 			(at 19.04 1.27)
@@ -2100,7 +2368,7 @@
 			(net 11 "ADC1")
 			(pinfunction "GPIO27")
 			(pintype "bidirectional")
-			(uuid "24d43393-5348-4dbe-b1f3-adba049180a4")
+			(uuid "d23a1cc3-ac0d-4eb0-a995-f5af54ede19a")
 		)
 		(pad "9" thru_hole oval
 			(at 21.58 1.27)
@@ -2111,7 +2379,7 @@
 			(net 34 "ADC0")
 			(pinfunction "GPIO26")
 			(pintype "bidirectional")
-			(uuid "f184ea72-2429-4187-9a52-b085707fec97")
+			(uuid "e8f1f703-9835-475d-b36f-2285f3ecea68")
 		)
 		(pad "10" thru_hole oval
 			(at 24.12 1.27)
@@ -2122,7 +2390,7 @@
 			(net 4 "LED_DIN")
 			(pinfunction "GPIO22")
 			(pintype "bidirectional")
-			(uuid "bcb0984b-e11a-47cf-80dc-d968a237e873")
+			(uuid "5949fccd-00c6-4c7f-b7e0-c639f629fbdf")
 		)
 		(pad "11" thru_hole oval
 			(at 26.66 1.27)
@@ -2133,7 +2401,7 @@
 			(net 26 "unconnected-(U1-GPIO20-Pad11)")
 			(pinfunction "GPIO20")
 			(pintype "bidirectional")
-			(uuid "bcbabea6-cbe8-4866-abd1-d5430aa081f9")
+			(uuid "1aaa9d29-a010-4ee6-bd1e-2c63b2bb1b9d")
 		)
 		(pad "12" thru_hole oval
 			(at 29.2 1.27)
@@ -2144,7 +2412,7 @@
 			(net 31 "unconnected-(U1-GPIO23-Pad12)")
 			(pinfunction "GPIO23")
 			(pintype "bidirectional")
-			(uuid "d7c94c78-d100-47a1-804b-c916a5bee892")
+			(uuid "aa337b30-29d5-48fc-aab5-eaa3ea96963f")
 		)
 		(pad "13" thru_hole oval
 			(at 31.74 1.27)
@@ -2155,7 +2423,7 @@
 			(net 23 "unconnected-(U1-GPIO21-Pad13)")
 			(pinfunction "GPIO21")
 			(pintype "bidirectional")
-			(uuid "a4aeaa13-10e6-4898-983c-45322c80e53a")
+			(uuid "6a716c64-d9c9-4c32-b1c0-403889653449")
 		)
 		(pad "14" thru_hole oval
 			(at 31.74 3.81)
@@ -2166,7 +2434,7 @@
 			(net 14 "unconnected-(U1-GPIO16-Pad14)")
 			(pinfunction "GPIO16")
 			(pintype "bidirectional")
-			(uuid "4b287130-75e0-493f-9241-94f0f450b94e")
+			(uuid "d6b8a515-0322-43a9-94b0-2983eb33dcd1")
 		)
 		(pad "15" thru_hole oval
 			(at 31.74 6.35)
@@ -2177,7 +2445,7 @@
 			(net 12 "unconnected-(U1-GPIO15-Pad15)")
 			(pinfunction "GPIO15")
 			(pintype "bidirectional")
-			(uuid "34bef3ea-0ccc-4abc-b2db-439f796c2e36")
+			(uuid "82c2a21e-9fac-489b-b732-bcf01517a4e0")
 		)
 		(pad "16" thru_hole oval
 			(at 31.74 8.89)
@@ -2188,7 +2456,7 @@
 			(net 20 "unconnected-(U1-GPIO14-Pad16)")
 			(pinfunction "GPIO14")
 			(pintype "bidirectional")
-			(uuid "86b4d565-e104-4017-a7df-052fdcdb67a1")
+			(uuid "9eb2cd2d-21ad-473b-8ddf-a6ae9397ff31")
 		)
 		(pad "17" thru_hole oval
 			(at 31.74 11.43)
@@ -2199,7 +2467,7 @@
 			(net 30 "unconnected-(U1-GPIO13-Pad17)")
 			(pinfunction "GPIO13")
 			(pintype "bidirectional")
-			(uuid "d0dee4ef-4d6b-4a50-b55f-60c7fa546fdd")
+			(uuid "8f79ebbb-a523-49b4-b605-38915658365e")
 		)
 		(pad "18" thru_hole oval
 			(at 31.74 13.97)
@@ -2210,7 +2478,7 @@
 			(net 15 "unconnected-(U1-GPIO12-Pad18)")
 			(pinfunction "GPIO12")
 			(pintype "bidirectional")
-			(uuid "4cb376a9-3078-4197-bb96-e35cd1aef089")
+			(uuid "96196f62-8029-4bb7-a38d-ee2deb8f3d1f")
 		)
 		(pad "19" thru_hole oval
 			(at 31.74 16.51)
@@ -2221,7 +2489,7 @@
 			(net 22 "unconnected-(U1-GPIO9-Pad19)")
 			(pinfunction "GPIO9")
 			(pintype "bidirectional")
-			(uuid "a3215fca-79a4-4921-aa37-168b63b56072")
+			(uuid "187f024b-3393-4f68-be8f-634c0d8fc157")
 		)
 		(pad "20" thru_hole oval
 			(at 29.2 16.51)
@@ -2232,7 +2500,7 @@
 			(net 27 "unconnected-(U1-GPIO8-Pad20)")
 			(pinfunction "GPIO8")
 			(pintype "bidirectional")
-			(uuid "bf69750b-765c-4b1f-b869-52bca880d243")
+			(uuid "a6b2dd8a-7c48-46a6-a1f2-2390140632ab")
 		)
 		(pad "21" thru_hole oval
 			(at 26.66 16.51)
@@ -2243,7 +2511,7 @@
 			(net 21 "unconnected-(U1-GPIO7-Pad21)")
 			(pinfunction "GPIO7")
 			(pintype "bidirectional")
-			(uuid "90d5728a-75ec-4ea2-96de-188ab53d179d")
+			(uuid "47ce6afd-7b1c-416c-82a4-6d0528ae7a1f")
 		)
 		(pad "22" thru_hole oval
 			(at 24.12 16.51)
@@ -2254,7 +2522,7 @@
 			(net 18 "unconnected-(U1-GPIO6-Pad22)")
 			(pinfunction "GPIO6")
 			(pintype "bidirectional")
-			(uuid "6e066a51-b0ba-490f-b468-6839784e9ea5")
+			(uuid "f2d49a51-5cc0-4861-8224-0d05dd773f93")
 		)
 		(pad "23" thru_hole oval
 			(at 21.58 16.51)
@@ -2265,7 +2533,7 @@
 			(net 10 "unconnected-(U1-GPIO5-Pad23)")
 			(pinfunction "GPIO5")
 			(pintype "bidirectional")
-			(uuid "096ea68a-4847-4f81-845a-7b2e6571402e")
+			(uuid "3b0beed7-9725-4841-96f7-f183043e5832")
 		)
 		(pad "24" thru_hole oval
 			(at 19.04 16.51)
@@ -2276,7 +2544,7 @@
 			(net 25 "unconnected-(U1-GPIO4-Pad24)")
 			(pinfunction "GPIO4")
 			(pintype "bidirectional")
-			(uuid "b324685c-4f4f-487d-91e3-d82882013b79")
+			(uuid "cf6d7c94-ceea-42a7-ae78-41d508c2b0f5")
 		)
 		(pad "25" thru_hole oval
 			(at 16.5 16.51)
@@ -2287,7 +2555,7 @@
 			(net 19 "unconnected-(U1-GPIO3-Pad25)")
 			(pinfunction "GPIO3")
 			(pintype "bidirectional")
-			(uuid "6ed97b65-6134-41a8-9bf6-c15a915fb2a7")
+			(uuid "40b809d0-6f29-472d-ae3c-d3b817a4f382")
 		)
 		(pad "26" thru_hole oval
 			(at 13.96 16.51)
@@ -2298,7 +2566,7 @@
 			(net 16 "unconnected-(U1-GPIO2-Pad26)")
 			(pinfunction "GPIO2")
 			(pintype "bidirectional")
-			(uuid "51144de8-42e3-4f5e-b0d3-79b3bb5b3c27")
+			(uuid "213a6790-2d80-48f4-9c6d-b84ddbb05c8c")
 		)
 		(pad "27" thru_hole oval
 			(at 11.42 16.51)
@@ -2309,7 +2577,7 @@
 			(net 3 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "e55368c0-a18e-4439-8dd2-64a21696ac84")
+			(uuid "96d76822-bcda-4537-a4a3-9b10ca336c33")
 		)
 		(pad "28" thru_hole oval
 			(at 8.88 16.51)
@@ -2320,7 +2588,7 @@
 			(net 3 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "136d9c75-5340-4d42-a837-ea7a228ef8d1")
+			(uuid "9f9e4da2-c9e6-4a15-aa46-7ccc32e121ad")
 		)
 		(pad "29" thru_hole oval
 			(at 6.34 16.51)
@@ -2331,7 +2599,7 @@
 			(net 33 "unconnected-(U1-GPIO1-Pad29)")
 			(pinfunction "GPIO1")
 			(pintype "bidirectional")
-			(uuid "e2319af5-11f4-44dc-8364-8881dff91ffb")
+			(uuid "2725dc73-0b2c-42d5-872a-679f0bb28290")
 		)
 		(pad "30" thru_hole oval
 			(at 3.8 16.51)
@@ -2342,7 +2610,7 @@
 			(net 13 "unconnected-(U1-GPIO0-Pad30)")
 			(pinfunction "GPIO0")
 			(pintype "bidirectional")
-			(uuid "3f169613-8b58-4183-bed5-b51398d62199")
+			(uuid "6d909f0b-bb44-4183-b776-5fc32ec997e8")
 		)
 		(pad "31" thru_hole oval
 			(at 1.26 16.51)
@@ -2353,7 +2621,7 @@
 			(net 28 "unconnected-(U1-GPIO10-Pad31)")
 			(pinfunction "GPIO10")
 			(pintype "bidirectional")
-			(uuid "c8f8fd4e-86f2-418c-92e4-ced6a8c57b17")
+			(uuid "dfe862a4-d936-4dd1-b42c-833ffa7e08b8")
 		)
 	)
 	(footprint "Library:SW_HE_MX_PCB"
@@ -3846,278 +4114,6 @@
 			(uuid "0aa98a1c-6322-4fde-8697-eaac736d0314")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Library:SW_HE_MX_PCB"
-		(layer "B.Cu")
-		(uuid "722e2bef-bec2-45e5-9ac2-12ec13b9e4d5")
-		(at 55.88 57.658 180)
-		(descr "Hall Effect keyswitch PCB Mount")
-		(tags "Hall Effect Keyboard Keyswitch Switch PCB Cutout")
-		(property "Reference" "H1"
-			(at 0.01 5.842 180)
-			(layer "B.SilkS")
-			(uuid "481ea101-2c01-4008-90c3-350b1e0ac727")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "KeyMount"
-			(at 0 -8 180)
-			(layer "B.Fab")
-			(uuid "a7fd4191-3bdf-4db7-a84c-085c8b963b8d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Library:SW_HE_MX_PCB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2afa1c73-db4f-4b53-92bd-2450a5be6dc5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2c4eb945-eb21-4949-ba0f-47aa4b3c8225")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1ebf7c59-af70-42fa-b9fe-998ad2961359")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/3716b19d-ec6c-43d5-a68b-ae5075d12848")
-		(sheetname "Root")
-		(sheetfile "hallpico.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start 7.1 7.1)
-			(end 7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "dbe385e0-ec4b-4867-a7d3-575ee3f23fef")
-		)
-		(fp_line
-			(start 7.1 -7.1)
-			(end -7.1 -7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "eabe84f6-5cd0-4ce9-a04e-8a3433a349ae")
-		)
-		(fp_line
-			(start -7.1 7.1)
-			(end 7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9954d8fd-ff1b-4945-8599-912fc8877c0b")
-		)
-		(fp_line
-			(start -7.1 -7.1)
-			(end -7.1 7.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4012610d-0937-45a4-85ac-b3452913b0c7")
-		)
-		(fp_line
-			(start 7 7)
-			(end 7 -7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "5698b0a8-5c2d-4b25-9661-a1811e556811")
-		)
-		(fp_line
-			(start 7 -7)
-			(end -7 -7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "b54e7c5c-e20c-4426-8d53-2fc969839c0f")
-		)
-		(fp_line
-			(start -7 7)
-			(end 7 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "64c7c88b-8c88-4387-87d8-f1153df5a02c")
-		)
-		(fp_line
-			(start -7 -7)
-			(end -7 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "5d1ebb50-e71c-4c73-a082-5891111b49ba")
-		)
-		(fp_line
-			(start 7.25 7.25)
-			(end 7.25 -7.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "d96de630-4e11-479d-8e31-0b8e6662c92e")
-		)
-		(fp_line
-			(start 7.25 -7.25)
-			(end -7.25 -7.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "55cefbec-27e6-4cf0-a417-bd7dc2d4560b")
-		)
-		(fp_line
-			(start -7.25 7.25)
-			(end 7.25 7.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "0d7354ed-e574-46c6-94ef-25e2eb6029a2")
-		)
-		(fp_line
-			(start -7.25 -7.25)
-			(end -7.25 7.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "4bce251f-d025-4490-b9e1-573c37ba82ea")
-		)
-		(fp_line
-			(start 7 7)
-			(end 7 -7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "1918826e-306e-499e-a713-ef42ddc0144d")
-		)
-		(fp_line
-			(start 7 -7)
-			(end -7 -7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "7be8a4dd-998a-49c4-a8e4-01199b59ff41")
-		)
-		(fp_line
-			(start -7 7)
-			(end 7 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "10540bca-c904-4dfc-a031-5338f0d30696")
-		)
-		(fp_line
-			(start -7 -7)
-			(end -7 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "cac7d67e-24fb-4b9d-a13b-63feced491f4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "B.Fab")
-			(uuid "553601ce-a8dc-4f25-a610-754e124c2726")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -5.08 0 180)
-			(size 1.75 1.75)
-			(drill 1.75)
-			(layers "*.Cu" "*.Mask")
-			(uuid "5f0d5580-8cd7-4eb1-a1bd-31a614912815")
-		)
-		(pad "" np_thru_hole circle
-			(at 5.08 0 180)
-			(size 1.75 1.75)
-			(drill 1.75)
-			(layers "*.Cu" "*.Mask")
-			(uuid "cfe99552-4627-40b9-96b8-f88f1ca23312")
-		)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
