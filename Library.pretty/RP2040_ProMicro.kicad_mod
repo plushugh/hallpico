@@ -1,8 +1,10 @@
-(footprint "RP2040_MiniPico_V1.1"
+(footprint "RP2040_ProMicro"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "nologotech RP2040 Pro Micro Board")
+	(tags "nologotech RP2040 Pro Micro Development Board")
 	(property "Reference" "REF**"
 		(at 2 -1 0)
 		(unlocked yes)
@@ -15,8 +17,8 @@
 			)
 		)
 	)
-	(property "Value" "RP2040_MiniPico_V1.1"
-		(at 0 1 0)
+	(property "Value" "RP2040_ProMicro"
+		(at 18.5 11.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9a350cf4-77bf-499b-bcd0-827c126d2379")
@@ -117,7 +119,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 18.5 12.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d4d6ca33-d03a-4aec-b73c-73fd5b90e071")

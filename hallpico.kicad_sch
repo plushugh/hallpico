@@ -244,7 +244,7 @@
 				)
 			)
 		)
-		(symbol "Library:RP2040_MiniPico_V1.1"
+		(symbol "Library:RP2040_ProMicro"
 			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -257,7 +257,7 @@
 					)
 				)
 			)
-			(property "Value" "RP2040 MiniPico V1.1"
+			(property "Value" "RP2040 Pro Micro"
 				(at 31.496 -44.958 0)
 				(effects
 					(font
@@ -265,7 +265,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Library:RP2040_MiniPico_V1.1"
+			(property "Footprint" "Library:RP2040_ProMicro"
 				(at 9.906 4.064 0)
 				(effects
 					(font
@@ -283,7 +283,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RP2040 ProMicro (MiniPico) Board from nologotech"
+			(property "Description" "RP2040 Pro Micro Board from nologotech"
 				(at 3.556 8.89 0)
 				(effects
 					(font
@@ -292,7 +292,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Development Board"
+			(property "ki_keywords" "Development Board RP2040 Pro Micro"
 				(at 0 0 0)
 				(effects
 					(font
@@ -301,7 +301,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RP2040_MiniPico_V1.1_0_1"
+			(symbol "RP2040_ProMicro_0_1"
 				(rectangle
 					(start 0 0)
 					(end 20.32 -45.72)
@@ -314,7 +314,7 @@
 					)
 				)
 			)
-			(symbol "RP2040_MiniPico_V1.1_1_1"
+			(symbol "RP2040_ProMicro_1_1"
 				(pin bidirectional line
 					(at 22.86 -5.08 180)
 					(length 2.54)
@@ -3397,7 +3397,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:RP2040_MiniPico_V1.1")
+		(lib_id "Library:RP2040_ProMicro")
 		(at 104.14 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3414,7 +3414,7 @@
 				)
 			)
 		)
-		(property "Value" "RP2040 MiniPico V1.1"
+		(property "Value" "RP2040 Pro Micro"
 			(at 114.3 60.96 0)
 			(effects
 				(font
@@ -3422,7 +3422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:RP2040_MiniPico_V1.1"
+		(property "Footprint" "Library:RP2040_ProMicro"
 			(at 114.046 59.436 0)
 			(effects
 				(font
@@ -3440,7 +3440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RP2040 ProMicro (MiniPico) Board from nologotech"
+		(property "Description" "RP2040 Pro Micro Board from nologotech"
 			(at 107.696 54.61 0)
 			(effects
 				(font
